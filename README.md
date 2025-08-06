@@ -1,10 +1,7 @@
 # profile_badge
-this repo contains html files for custom badge (github pages public hosting)
-
+This repo contains html files for custom markdown badges (github pages public hosting)
 <br>
-
 after hosting using github pages you will get urls like this
-
 <br>
 
 -  https://locamartin.github.io/profile_badge/css.html
