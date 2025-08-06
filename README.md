@@ -1,10 +1,10 @@
 ### How I Created Custom Markdown Badges for My GitHub Profile (Without Shields.io)
 
 <div align="center">
-  <img style="height: 50px; width: 170px;" src="badges/batch_script.png"/>
-  <img style="height: 50px; width: 170px;" src="badges/css.png"/>
-  <img style="height: 50px; width: 170px;" src="badges/nuclei.png"/>
-  <img style="height: 50px; width: 170px;" src="badges/powershell.png"/>
+  <img style="height: 50px;" src="badges/batch_script.png"/>
+  <img style="height: 50px;" src="badges/css.png"/>
+  <img style="height: 50px;" src="badges/nuclei.png"/>
+  <img style="height: 50px;" src="badges/powershell.png"/>
 </div>
 
 I wanted to add some cool-looking badges to my GitHub `README.md` — but I hit a wall.
@@ -180,4 +180,10 @@ ffmpeg -framerate 10 -i badges/frames/nuclei/frame-%03d.png -loop 0 badges/anima
 ```
 
 Now I have fully customized badges with my own icons, custom styles, and total control — and I can show off tools I actually use, even if no one else makes badges for them.
+
+---
+
+### Alternativly you can use image editing apps like `PixLab`
+<div align="center"><img style="height: 500px;" src="https://github.com/user-attachments/assets/9d54807c-3182-4fe7-802d-9727b0c72bdc" /></div>
+
 
