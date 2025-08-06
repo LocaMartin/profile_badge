@@ -162,7 +162,7 @@ const badgeFiles = [
       await new Promise((res) => setTimeout(res, 1000 / fps));
     }
 
-    console.log(`✅ Captured frames for ${fileName}`);
+    console.log(`Captured frames for ${fileName}`);
   }
 
   await browser.close();
