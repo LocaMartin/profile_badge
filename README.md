@@ -1,21 +1,28 @@
 ### How I Created Custom Markdown Badges for My GitHub Profile (Without Shields.io)
 
+<div align="center">
+  <img style="height: 50px; width: 170px;" src="badges/batch_script.png"/>
+  <img style="height: 50px; width: 170px;" src="badges/css.png"/>
+  <img style="height: 50px; width: 170px;" src="badges/nuclei.png"/>
+  <img style="height: 50px; width: 170px;" src="badges/powershell.png"/>
+</div>
+
 I wanted to add some cool-looking badges to my GitHub `README.md` — but I hit a wall.
 
 Shields.io didn’t have logos for some of the tools I use (like `Nuclei`, `Batch Scripts`, `PowerShell`), so I decided to build my own badges manually with HTML and CSS, and convert them into images using Puppeteer.
 
-```bash
+```yaml
 mkdir profile
 ```
-```bash
+```yaml
 cd profile
 ```
-```bash
+```yaml
 mkdir res # resource directory 
 # Place your logos (e.g., batch.png, nuclei.svg) inside the res/ folder.
 ```
 ### Create the HTML Badge Template
-```bash
+```yaml
 touch batch_script.html css.html nuclei.html package-lock.json package.json powershell.html # create html files
 ```
 ```html
@@ -42,14 +49,14 @@ touch batch_script.html css.html nuclei.html package-lock.json package.json powe
 | `box-shadow`                | Adds a thin border around the badge.                |
 ### Take Screenshots Using Puppeteer
 Install the dependencies 
-```bash
-npm node init -y
+```yaml
+npm init -y
 ```
-```bash
-npm install 
+```yaml
+npm install puppeteer
 ```
 create a screenshot
-```bash
+```yaml
 touch screenshot.js
 ```
 ```js
@@ -94,7 +101,7 @@ const badgeFiles = [
 })();
 ```
 ### Folder Structure
-```
+```yaml
 profile/
 ├── res/
 │   └── batch.png
@@ -107,7 +114,7 @@ profile/
 ├── screenshot.js        <-- Puppeteer script
 ```
 ### Run the Script
-```bash
+```yaml
 # run
 node screenshot.js
 # you will get png(s) inside badges directory
